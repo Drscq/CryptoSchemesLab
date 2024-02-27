@@ -1,5 +1,5 @@
 import unittest
-from elgamal_encryption import ElGamalEncryption  # Make sure to replace 'your_module' with the name of your Python file containing the ElGamalEncryption class
+from elgamal_encryption import ElGamalEncryption  # Adjust the import statement based on your actual file name
 
 class TestElGamalEncryption(unittest.TestCase):
 
@@ -43,6 +43,15 @@ class TestElGamalEncryption(unittest.TestCase):
         randomized_ciphertext = self.elgamal.randomize_ciphertext(public_key, encrypted_message)
         decrypted_message_after_randomization = self.elgamal.decrypt(private_key, randomized_ciphertext)
         self.assertEqual(message, decrypted_message_after_randomization)
+
+    def test_binary_ciphertext_randomization(self):
+        """Test binary ciphertext randomization and decryption."""
+        private_key, public_key = self.elgamal.generate_keys()
+        binary_message = b'Hello, ElGamal!'
+        encrypted_chunks = self.elgamal.encrypt_binary(public_key, binary_message)
+        randomized_chunks = self.elgamal.randomize_binary(public_key, encrypted_chunks)
+        decrypted_binary_after_randomization = self.elgamal.decrypt_binary(private_key, randomized_chunks)
+        self.assertEqual(binary_message, decrypted_binary_after_randomization)
 
 if __name__ == '__main__':
     unittest.main()

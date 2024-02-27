@@ -1,5 +1,5 @@
 import unittest
-from elgamal_encryption import ElGamalEncryption
+from elgamal_encryption_update_2_mt import ElGamalEncryption
 from tqdm import tqdm
 import time
 
