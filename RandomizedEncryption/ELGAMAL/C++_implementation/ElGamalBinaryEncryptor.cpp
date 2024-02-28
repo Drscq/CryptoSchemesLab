@@ -108,6 +108,11 @@ private:
 int main() {
     // Demonstration with a simple binary message
     std::vector<unsigned char> message = {'H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd', '!'};
+    long long p = 68647976601306;
+    long long g = 2;
+    long long x = 3402823;
+
+
     ElGamal elGamal(123, 5, 6); // Example usage with small prime for demonstration
     auto ct = elGamal.encrypt(message, 1234);
     std::cout << "Encrypted message: ";
