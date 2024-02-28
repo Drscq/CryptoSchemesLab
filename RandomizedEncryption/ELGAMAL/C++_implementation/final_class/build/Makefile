@@ -117,48 +117,48 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ElGamalDemo
+# Target rules for targets named ElGamal
 
 # Build rule for target.
-ElGamalDemo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ElGamalDemo
-.PHONY : ElGamalDemo
+ElGamal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ElGamal
+.PHONY : ElGamal
 
 # fast build rule for target.
-ElGamalDemo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ElGamalDemo.dir/build.make CMakeFiles/ElGamalDemo.dir/build
-.PHONY : ElGamalDemo/fast
+ElGamal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ElGamal.dir/build.make CMakeFiles/ElGamal.dir/build
+.PHONY : ElGamal/fast
 
-ElGamal.o: ElGamal.cpp.o
-.PHONY : ElGamal.o
+ElGamalMT.o: ElGamalMT.cpp.o
+.PHONY : ElGamalMT.o
 
 # target to build an object file
-ElGamal.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ElGamalDemo.dir/build.make CMakeFiles/ElGamalDemo.dir/ElGamal.cpp.o
-.PHONY : ElGamal.cpp.o
+ElGamalMT.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ElGamal.dir/build.make CMakeFiles/ElGamal.dir/ElGamalMT.cpp.o
+.PHONY : ElGamalMT.cpp.o
 
-ElGamal.i: ElGamal.cpp.i
-.PHONY : ElGamal.i
+ElGamalMT.i: ElGamalMT.cpp.i
+.PHONY : ElGamalMT.i
 
 # target to preprocess a source file
-ElGamal.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ElGamalDemo.dir/build.make CMakeFiles/ElGamalDemo.dir/ElGamal.cpp.i
-.PHONY : ElGamal.cpp.i
+ElGamalMT.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ElGamal.dir/build.make CMakeFiles/ElGamal.dir/ElGamalMT.cpp.i
+.PHONY : ElGamalMT.cpp.i
 
-ElGamal.s: ElGamal.cpp.s
-.PHONY : ElGamal.s
+ElGamalMT.s: ElGamalMT.cpp.s
+.PHONY : ElGamalMT.s
 
 # target to generate assembly for a file
-ElGamal.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ElGamalDemo.dir/build.make CMakeFiles/ElGamalDemo.dir/ElGamal.cpp.s
-.PHONY : ElGamal.cpp.s
+ElGamalMT.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ElGamal.dir/build.make CMakeFiles/ElGamal.dir/ElGamalMT.cpp.s
+.PHONY : ElGamalMT.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ElGamalDemo.dir/build.make CMakeFiles/ElGamalDemo.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ElGamal.dir/build.make CMakeFiles/ElGamal.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -166,7 +166,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ElGamalDemo.dir/build.make CMakeFiles/ElGamalDemo.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ElGamal.dir/build.make CMakeFiles/ElGamal.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +174,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ElGamalDemo.dir/build.make CMakeFiles/ElGamalDemo.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ElGamal.dir/build.make CMakeFiles/ElGamal.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -185,10 +185,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ElGamalDemo"
-	@echo "... ElGamal.o"
-	@echo "... ElGamal.i"
-	@echo "... ElGamal.s"
+	@echo "... ElGamal"
+	@echo "... ElGamalMT.o"
+	@echo "... ElGamalMT.i"
+	@echo "... ElGamalMT.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

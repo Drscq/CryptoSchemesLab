@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/ElGamalDemo.dir/main.cpp.o CMakeFiles/ElGamalDemo.dir/ElGamal.cpp.o -o ElGamalDemo  -lpthread 

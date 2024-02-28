@@ -1,7 +1,7 @@
-CMakeFiles/ElGamalDemo.dir/ElGamal.cpp.o: \
- /home/changqi/ORAM/CryptoSchemesLab/RandomizedEncryption/ELGAMAL/C++_implementation/final_class/ElGamal.cpp \
+CMakeFiles/ElGamal.dir/ElGamalMT.cpp.o: \
+ /home/changqi/ORAM/CryptoSchemesLab/RandomizedEncryption/ELGAMAL/C++_implementation/final_class/ElGamalMT.cpp \
  /usr/include/stdc-predef.h \
- /home/changqi/ORAM/CryptoSchemesLab/RandomizedEncryption/ELGAMAL/C++_implementation/final_class/ElGamal.h \
+ /home/changqi/ORAM/CryptoSchemesLab/RandomizedEncryption/ELGAMAL/C++_implementation/final_class/ElGamalMT.h \
  /usr/include/c++/8/vector /usr/include/c++/8/bits/stl_algobase.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \

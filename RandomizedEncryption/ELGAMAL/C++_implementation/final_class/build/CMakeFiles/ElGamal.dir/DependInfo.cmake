@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/changqi/ORAM/CryptoSchemesLab/RandomizedEncryption/ELGAMAL/C++_implementation/final_class/ElGamal.cpp" "CMakeFiles/ElGamalDemo.dir/ElGamal.cpp.o" "gcc" "CMakeFiles/ElGamalDemo.dir/ElGamal.cpp.o.d"
-  "/home/changqi/ORAM/CryptoSchemesLab/RandomizedEncryption/ELGAMAL/C++_implementation/final_class/main.cpp" "CMakeFiles/ElGamalDemo.dir/main.cpp.o" "gcc" "CMakeFiles/ElGamalDemo.dir/main.cpp.o.d"
+  "/home/changqi/ORAM/CryptoSchemesLab/RandomizedEncryption/ELGAMAL/C++_implementation/final_class/ElGamalMT.cpp" "CMakeFiles/ElGamal.dir/ElGamalMT.cpp.o" "gcc" "CMakeFiles/ElGamal.dir/ElGamalMT.cpp.o.d"
+  "/home/changqi/ORAM/CryptoSchemesLab/RandomizedEncryption/ELGAMAL/C++_implementation/final_class/main.cpp" "CMakeFiles/ElGamal.dir/main.cpp.o" "gcc" "CMakeFiles/ElGamal.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

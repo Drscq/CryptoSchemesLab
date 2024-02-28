@@ -1,4 +1,9 @@
-#include "ElGamal.h"
+
+#ifdef ELGAMAL_MT
+#include "ElGamalMT.h"  // Include ElGamalMT.h
+#else
+#include "ElGamal.h"  // Include ElGamal.h
+#endif
 #include <iostream>
 #include <string>
 #include <vector>

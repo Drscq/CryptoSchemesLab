@@ -1,4 +1,4 @@
-CMakeFiles/ElGamalDemo.dir/main.cpp.o: \
+CMakeFiles/ElGamal.dir/main.cpp.o: \
  /home/changqi/ORAM/CryptoSchemesLab/RandomizedEncryption/ELGAMAL/C++_implementation/final_class/main.cpp \
  /usr/include/stdc-predef.h \
  /home/changqi/ORAM/CryptoSchemesLab/RandomizedEncryption/ELGAMAL/C++_implementation/final_class/ElGamal.h \
